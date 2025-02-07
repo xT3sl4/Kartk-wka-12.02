@@ -2,13 +2,13 @@
 ## Instrukcje Ogólne
 - Utwórz fork repozytorium testowego
 - Wszystkie commity powinny przestrzegać konwencji: `ZADANIE-<numer>: <opis zmian>`
-- Każde zadanie powinno być wykonane na osobnym branchu
+- Każde zadanie powinno być wykonane na osobnym branchu `zad-x numer z dziennika`
 - Dokumentuj swoje polecenia w pliku commands.md dla każdego zadania
 
 ## Zadania
 
 ### Zadanie 1: Zarządzanie Branchami (15 punktów)
-1. Utwórz nowy branch `feature/zad1/<twój-numer-indeksu>`
+1. Utwórz nowy branch do zadania 1
 2. Stwórz plik `student.md` zawierający:
    - Nagłówek z Twoim numerem indeksu
    - Listę 3 ulubionych technologii
@@ -17,7 +17,8 @@
 4. Wypchnij branch na zdalne repozytorium
 
 ### Zadanie 2: Rebase i Rozwiązywanie Konfliktów (15 punktów)
-1. Utwórz nowy branch `feature/zad2/<twój-numer-indeksu>` z maina
+*Dajcie znać jak będziecie na tym zadaniu*
+1. Utwórz nowy branch do zadania 2 z maina
 2. Dodaj plik `profile.md` z następującą zawartością:
    - Nagłówek pierwszego poziomu z Twoim numerem indeksu
    - Podtytuł z Twoim ulubionym językiem programowania
@@ -34,7 +35,7 @@
    - Opis wprowadzonych zmian w formacie Markdown, zawierający:
      * Listę wprowadzonych zmian
      * Jedno pogrubione zdanie opisujące cel zmian
-3. Wykonaj cherry-pick ostatniego commita z maina do nowego brancha `feature/zad3/<twój-numer-indeksu>`
+3. Wykonaj cherry-pick ostatniego commita z maina do nowego brancha zad3
 
 ## Kryteria Oceny
 - Poprawne nazewnictwo i struktura branchy: 5 punktów za zadanie
